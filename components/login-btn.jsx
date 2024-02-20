@@ -18,7 +18,11 @@ export default function LoginBtn() {
     return (
       <>
         Signed in as {session.user.email} <br />
-        <button onClick={() => signOut()}>Sign out</button>
+        <button className="bg-blue-700 text-white "
+        onClick={() => signOut()}
+        >
+          Sign out
+        </button>
       </>
     )
   }
