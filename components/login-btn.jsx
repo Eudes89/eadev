@@ -18,7 +18,7 @@ export default function LoginBtn() {
     return (
       <>
         Signed in as {session.user.email} <br />
-        <button className="bg-blue-700 text-white "
+        <button className=""
         onClick={() => signOut()}
         >
           Sign out
@@ -29,7 +29,8 @@ export default function LoginBtn() {
   return (
     <>
       Not signed in <br />
-      <button onClick={handleGoogleAuth}>Sign in</button>
+      <button className="bg-blue-600 text-white px-2 rounded-lg ml-2 py-2"
+      onClick={handleGoogleAuth}>Sign in</button>
     </>
   )
 }
