@@ -29,7 +29,8 @@ export default function LoginBtn() {
   return (
     <>
       Not signed in <br />
-      <button className="bg-blue-600 text-white px-2 rounded-lg ml-2 py-2"
+      <button className="bg-blue-600 text-white px-2 rounded-lg ml-2 py-2
+      font-bold"
       onClick={handleGoogleAuth}>Sign in</button>
     </>
   )
